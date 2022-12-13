@@ -1,7 +1,7 @@
 package com.mx.data;
 
 import java.io.Serializable;
-
+//класс поставщика
 public class Providers implements Serializable {
     private static final long serialVersionUID = 2L;
     private int providerID;

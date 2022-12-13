@@ -1,7 +1,7 @@
 package com.mx.data;
 
 import java.io.Serializable;
-
+//класс аккаунта
 public class Account implements Serializable {
     private static final long serialVersionUID = 1L;
     private int userID;

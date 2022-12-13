@@ -1,7 +1,6 @@
 package com.mx.server;
 
 import com.mx.data.*;
-
 import javax.swing.*;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -10,6 +9,7 @@ import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+//класс, реализующий запросы в БД и отправку информации из БД клиенту
 public class DataBase {
     private Connection connection;
     private Statement statement;

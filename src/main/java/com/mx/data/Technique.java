@@ -1,7 +1,7 @@
 package com.mx.data;
 
 import java.io.Serializable;
-
+//класс техники
 public class Technique implements Serializable {
     private static final long serialVersionUID = 2L;
     private int techID;

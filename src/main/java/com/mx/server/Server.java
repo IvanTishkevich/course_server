@@ -6,7 +6,7 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.*;
-
+//класс сервера, в котором реализовано подключение к БД, соединие с клиентом, а также выборор use-case
 public class Server extends DataBase implements ServerConfig {
     private ServerSocket serverSocket;
 

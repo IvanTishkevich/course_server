@@ -2,7 +2,7 @@ package com.mx.data;
 
 import java.io.Serializable;
 import java.sql.Date;
-
+//класс продаж
 public class Selling implements Serializable {
     private static final long serialVersionUID = 2L;
     private int sellingID;

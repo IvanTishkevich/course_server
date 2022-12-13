@@ -3,7 +3,7 @@ package com.mx.server;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
+//интерфейс для работы сервера
 public interface ServerConfig {
     public default int readConfig(){
         try {

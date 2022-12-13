@@ -5,7 +5,7 @@ import jakarta.xml.bind.DatatypeConverter;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
+//абстрактный класс для хеширования
 public abstract class SHA_256 {
 
     public static String hashCode(String password)

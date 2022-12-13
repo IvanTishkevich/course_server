@@ -3,7 +3,7 @@ package com.mx.data;
 import java.io.Serializable;
 import java.sql.Date;
 
-
+//класс поставок
 public class Supplies implements Serializable {
     private static final long serialVersionUID = 2L;
     private int supplyID;
